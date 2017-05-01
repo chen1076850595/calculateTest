@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1" ?>
+<web-app>
+<servlet>
+  <servlet-name>loginServlet</servlet-name>
+  <servlet-class>myservlet.control.Login_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>loginServlet</servlet-name>
+  <url-pattern>/loginServlet</url-pattern>
+</servlet-mapping>
+
+
+<servlet>
+  <servlet-name>gradeServlet</servlet-name>
+  <servlet-class>myservlet.control.Grade_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>gradeServlet</servlet-name>
+  <url-pattern>/gradeServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+  <servlet-name>sortServlet</servlet-name>
+  <servlet-class>myservlet.control.Sort_Servlet</servlet-class>
+</servlet>
+<servlet-mapping>
+  <servlet-name>sortServlet</servlet-name>
+  <url-pattern>/sortServlet</url-pattern>
+</servlet-mapping>
+
+</web-app>
